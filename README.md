@@ -1,12 +1,14 @@
 # UAI2023_Pairwise_CI_Testing
 
+This repository contains the R-scripts that were used to generate the plots in the paper that will be submitte to UAI2023 (exact reference to follow). This repository does not constitute a package, it just consists of some scripts.
 
+## Requirements
 
-## Getting started
+Several packages need to be installed in the local R environment:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Contact info
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+tom dot hochsprung at dlr de
 
 ## Add your files
 
