@@ -4,7 +4,7 @@ This repository contains the R-scripts that were used to generate the plots in t
 
 ## Requirements
 The R version should match the mentioned packages below. (We used R version 3.6.3 (2020-02-29) -- "Holding the Windsock").
-Several packages and the there mentioned dependencies need to be installed in the respective R environment:
+Several packages and the there mentioned dependencies need to be installed in the respective R environment. The user can run the script install_packages.R which should install all the relevant packages:
 
 mvtnorm
 
@@ -12,7 +12,7 @@ energy
 
 GeneralisedCovarianceMeasure: is only needed when using the Generalized Covariance Measure
 
-At the moment, the user must do this for herself. We plan to do this in the future.
+
 
 ## Contact info
 
