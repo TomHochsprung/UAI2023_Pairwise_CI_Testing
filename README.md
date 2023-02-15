@@ -6,11 +6,20 @@ This repository contains the R-scripts that were used to generate the plots in t
 The R version should match the mentioned packages below, that means that the R version should be >= 3.5. (We used R version 3.6.3 (2020-02-29) -- "Holding the Windsock").
 Three packages need to be installed in the respective R environment. The user can run the script install_packages.R which should install all the relevant packages. All relevant packages have a general public license. The packages are:
 
-mvtnorm (purpose: to generate multivariate normal data, license:  	GPL-2, version:  	1.1-3)
+- mvtnorm (purpose: to generate multivariate normal data, license:  	GPL-2, version:  	1.1-3)
 
-energy (purpose: needed for the partial distance correlation, license:  	GPL-2 | GPL-3, version: 1.7-11)
+- energy (purpose: needed for the partial distance correlation, license:  	GPL-2 | GPL-3, version: 1.7-11)
 
-GeneralisedCovarianceMeasure: is only needed when using the Generalized Covariance Measure (purpose: to have an implementation of the gcm test statistic, license:  	GPL-2, version: 0.2.0)
+- GeneralisedCovarianceMeasure: is only needed when using the Generalized Covariance Measure (purpose: to have an implementation of the gcm test statistic, license:  	GPL-2, version: 0.2.0)
+
+There is a secondary install packages script, called install_packages_plotting_only.R These packages are only required if the user
+wants to achieve the same plots as we have, for the execution of the other scripts, this installation is not necessary.
+
+- ggplot2 (purpose: to generate plots, license:  	GPL-2, version:  	1.1-3)
+- dplyr (purpose: basic data cleaning functionality, license:  	GPL-2, version:  	1.1-3)
+- tidyr (purpose: basic data cleaning functionality, license:  	GPL-2, version:  	1.1-3)
+- ggpubr (purpose: grouping different plots together in one plot, license:  	GPL-2, version:  	1.1-3)
+- latex2exp (purpose: to use latex expressions in plots, license:  	GPL-2, version:  	1.1-3)
 
 
 
@@ -42,6 +51,15 @@ This function executes the novel pairwise testing algorithm, see Sections 3.2 an
 
 **test_ci_by_par_cor.R**:
 Tests (conditional) independence using the partial correlation and the t-distribution.
+
+**plotting.R**
+Script to generate plots as we have used.
+
+**install_packages.R**:
+Install main important packages.
+
+**install_packages_plotting_only.R**:
+Installs packages that are only relevant for plotting as we have done it
 
 ## License
 You can redistribute and/or modify the code under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
