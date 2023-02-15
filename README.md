@@ -6,11 +6,11 @@ This repository contains the R-scripts that were used to generate the plots in t
 The R version should match the mentioned packages below, that means that the R version should be >= 3.5. (We used R version 3.6.3 (2020-02-29) -- "Holding the Windsock").
 Three packages need to be installed in the respective R environment. The user can run the script install_packages.R which should install all the relevant packages. All relevant packages have a general public license. The packages are:
 
-mvtnorm (license:  	GPL-2, version:  	1.1-3)
+mvtnorm (purpose: to generate multivariate normal data, license:  	GPL-2, version:  	1.1-3)
 
-energy (license:  	GPL-2 | GPL-3, version: 1.7-11)
+energy (purpose: needed for the partial distance correlation, license:  	GPL-2 | GPL-3, version: 1.7-11)
 
-GeneralisedCovarianceMeasure: is only needed when using the Generalized Covariance Measure (license:  	GPL-2, version: 0.2.0)
+GeneralisedCovarianceMeasure: is only needed when using the Generalized Covariance Measure (purpose: to have an implementation of the gcm test statistic, license:  	GPL-2, version: 0.2.0)
 
 
 
