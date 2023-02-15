@@ -8,9 +8,32 @@ Several packages need to be installed in the local R environment:
 
 ## Contact info
 
-tom dot hochsprung at dlr de
+tom dot hochsprung at dlr dot de
 
-## Add your files
+## Scripts
+
+The repository contains several scripts:
+
+**main_code.R**:
+This is the main script of the repository, here the user can change the parameters and the model generates the data.
+
+**model_sigma_1.R**:
+This is the model corresponding to Sigma^(1) in the paper.
+
+**model_sigma_2.R**:
+This is the model corresponding to Sigma^(2) in the paper.
+
+**model_sigma_gcm.R**:
+This is the model corresponding to the simulations regarding the Generalized Covariance Measure in the Appendix.
+
+**execute_standard_test.R**:
+This function executes the standard pairwise testing algorithm, see Section 3.1 in the paper.
+
+**execute_novel_test.R**:
+This function executes the novel pairwise testing algorithm, see Sections 3.2 and 3.3 in the paper.
+
+**test_ci_by_par_cor.R**:
+Tests (conditional) independence using the partial correlation and the t-distribution.
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
 - [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
