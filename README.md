@@ -4,7 +4,12 @@ This repository contains the R-scripts that were used to generate the plots in t
 
 ## Requirements
 
-Several packages need to be installed in the local R environment:
+Several packages and the there mentioned dependencies need to be installed in the respective R environment:
+GeneralisedCovarianceMeasure
+mvtnorm
+energy
+
+At the moment, the user must do this for herself. We plan to do this more automatically.
 
 ## Contact info
 
