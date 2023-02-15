@@ -98,7 +98,7 @@ Use examples liberally, and show the expected output if you can. It's helpful to
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Maybe, one make a package out of this loose collection of scripts. One may also incorporate more conditional independence tests; as of now, only tests based on the partial correlation and the generalized covariance measure are implemented.
 
 ## Contributing
 State if you are open to contributions and what your requirements are for accepting them.
@@ -111,7 +111,7 @@ You can also document commands to lint the code or run tests. These steps help t
 Show your appreciation to those who have contributed to the project.
 
 ## License
-For open source projects, say how it is licensed.
+You can redistribute and/or modify the code under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+The code was meant to provide a way of validating the generated plots in the original paper. As of now, no further developments are planned.
