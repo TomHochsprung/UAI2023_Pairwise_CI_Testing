@@ -7,19 +7,17 @@ The R version should match the mentioned packages below, that means that the R v
 Three packages need to be installed in the respective R environment. The user can run the script install_packages.R which should install all the relevant packages. All relevant packages have a general public license. The packages are:
 
 - mvtnorm (purpose: to generate multivariate normal data, license:  	GPL-2, version:  	1.1-3)
-
 - energy (purpose: needed for the partial distance correlation, license:  	GPL-2 | GPL-3, version: 1.7-11)
-
 - GeneralisedCovarianceMeasure: is only needed when using the Generalized Covariance Measure (purpose: to have an implementation of the gcm test statistic, license:  	GPL-2, version: 0.2.0)
 
 There is a secondary install packages script, called install_packages_plotting_only.R These packages are only required if the user
 wants to achieve the same plots as we have, for the execution of the other scripts, this installation is not necessary.
 
-- ggplot2 (purpose: to generate plots, license:  	GPL-2, version:  	1.1-3)
-- dplyr (purpose: basic data cleaning functionality, license:  	GPL-2, version:  	1.1-3)
-- tidyr (purpose: basic data cleaning functionality, license:  	GPL-2, version:  	1.1-3)
-- ggpubr (purpose: grouping different plots together in one plot, license:  	GPL-2, version:  	1.1-3)
-- latex2exp (purpose: to use latex expressions in plots, license:  	GPL-2, version:  	1.1-3)
+- ggplot2 (purpose: to generate plots, license:  	MIT open source, version:  	3.4.1)
+- dplyr (purpose: basic data cleaning functionality, license:  	MIT open source, version:  	1.1.0)
+- tidyr (purpose: basic data cleaning functionality, license:  	MIT open source, version:  	1.3.0)
+- ggpubr (purpose: grouping different plots together in one plot, license:  	GPL-2 | GPL-3, version:  	0.6.0)
+- latex2exp (purpose: to use latex expressions in plots, license:  	MIT open source, version:  	 	0.9.6)
 
 
 
