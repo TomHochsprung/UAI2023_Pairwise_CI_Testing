@@ -3,7 +3,7 @@ library(mvtnorm)
 library(energy)
 source("test_ci_by_par_cor.R")
 source("execute_standard_test.R")
-source("execute_novel_test.R") # with sample splitting
+source("execute_novel_test.R")
 
 
 set.seed(2021) # random seed
