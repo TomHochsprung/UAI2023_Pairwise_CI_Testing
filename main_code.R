@@ -177,7 +177,7 @@ for(dim_X_Y in dims_X_Y) {
 }
 
 # export results
-write.csv(rejection_rate_df, file = "rejection_rate_df_dist_corr_tau09.csv")
+write.csv(rejection_rate_df, file = "rejection_rate_df.csv")
 rejection_rate_df
 
 
