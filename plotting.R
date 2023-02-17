@@ -8,7 +8,7 @@ library(latex2exp)
 # contains code to generate plots based on stored csv-files
 
 # first some data cleaning
-rejection_rate_df <- read.csv("gcm_rejection_rate_df_dist_corr_tau00.csv")
+rejection_rate_df <- read.csv("rejection_rate_df.csv")
 x_names <- c(
   `2` = "(d_X, d_Y) = (2, 2)",
   `3` = "(d_X, d_Y) = (3, 3)",
